@@ -2,6 +2,7 @@ def dictionary
   dictionary_hash = {
     "hello" => "hi"
   }
+end
 
 ```
   "hello" becomes 'hi'
