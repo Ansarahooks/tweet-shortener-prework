@@ -14,5 +14,11 @@ def dictionary
 end
 
 def word_substituter (string)
-  
+  string.split.collect |word|
+  if dictionary.keys.include?(word.downcase)
+      word = dictionary[word.downcase]
+    else
+      word
+    end
+  end.join(" ")
 end
