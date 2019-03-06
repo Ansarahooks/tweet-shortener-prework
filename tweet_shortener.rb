@@ -6,4 +6,3 @@ dictionary = {
     "at" => "@",
     "and" => "&"
   }
-
