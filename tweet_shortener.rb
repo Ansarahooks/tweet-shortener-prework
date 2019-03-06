@@ -42,3 +42,5 @@ def shortened_tweet_truncator (tweet)
     selective_tweet_shortener (tweet)
   else
     string[0..139]
+  end
+end
