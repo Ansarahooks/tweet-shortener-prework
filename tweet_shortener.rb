@@ -13,12 +13,12 @@ def dictionary
   }
 end
 
-def word_substituter(string) 
+def word_substituter(string)
   string.split.collect do |word|
     if dictionary.keys.include?(word.downcase)
       word = dictionary[word.downcase]
-    else 
-      word 
-    end 
+    else
+      word
+    end
   end.join(" ")
 end 
