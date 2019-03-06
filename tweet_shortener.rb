@@ -1,5 +1,4 @@
-def dictionary
-  dictionary_hash = {
+dictionary = {
     "hello" => "hi",
     "to" => "2"
     "be" => "b",
@@ -7,4 +6,4 @@ def dictionary
     "at" => "@",
     "and" => "&"
   }
-end
+
