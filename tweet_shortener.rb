@@ -10,3 +10,4 @@ def word_substituter
     "and": "&"
   }
 end
+end
